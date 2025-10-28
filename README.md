@@ -45,7 +45,7 @@ Visual comparisons of the segmentation results illustrate that our augmentation 
 
 We use the following public datasets in our experiments:
 
-- **[AC3/AC4](hhttps://lichtman.rc.fas.harvard.edu/vast/AC3AC4Package.zip)**: Mouse somatosensory cortex datasets imaged with FIB-SEM at 6×6×29 nm³ resolution.
+- **[AC3/AC4](https://lichtman.rc.fas.harvard.edu/vast/AC3AC4Package.zip)**: Mouse somatosensory cortex datasets imaged with FIB-SEM at 6×6×29 nm³ resolution.
 
 > 💡 All datasets are publicly available. Please visit the official websites to download.
 
