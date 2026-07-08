@@ -1,0 +1,32 @@
+--extra-index-url https://download.pytorch.org/whl/cu118
+
+torch==2.1.1
+torchvision==0.16.1
+torchaudio==2.1.1
+
+causal-conv1d==1.1.1
+mamba-ssm==1.1.4
+
+torchio==0.18.86
+numpy
+nibabel==4.0.2
+einops
+tensorboard
+tensorboardX
+scikit-learn
+matplotlib
+h5py
+scikit-image
+shapely
+scipy
+pillow
+tqdm
+PyYAML
+attrdict
+opencv-python
+monai
+typing_extensions
+
+# Required for evaluation/post-processing.
+waterz
+elf-segmentation

@@ -1,0 +1,46 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+.pytest_cache/
+.mypy_cache/
+
+# IDE / OS
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+
+# Training outputs
+results/
+caches/
+models/
+inference/
+runs/
+logs/
+*.log
+
+# Model checkpoints
+*.pt
+*.pth
+*.ckpt
+
+# Data and generated volumes
+data/
+segmentation_scripts/data/**/*.h5
+segmentation_scripts/data/**/*.nii
+segmentation_scripts/data/**/*.nii.gz
+segmentation_scripts/data/**/*.tif
+segmentation_scripts/data/**/*.tiff
+segmentation_scripts/data/**/*.png
+dataset/EM/
+*.h5
+*.nii
+*.nii.gz
+*.tif
+*.tiff
+
+# Keep optional placeholder files if they are added later.
+!**/.gitkeep
