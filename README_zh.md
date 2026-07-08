@@ -2,9 +2,9 @@
 
 [English](README.md)
 
-本文是 **Diffusion Model-Based Data Augmentation for Enhanced Neuron Segmentation** 的官方代码实现。
+本文是 **Diffusion Model-Based Data Augmentation for Enhanced Neuron Segmentation** 的官方代码实现，论文已发表于 **IEEE ISBI 2026**。
 
-[[arXiv](https://arxiv.org/abs/2601.15779)] [[Paper PDF](https://arxiv.org/pdf/2601.15779)]
+[[IEEE](https://ieeexplore.ieee.org/document/11515854)] [[arXiv](https://arxiv.org/abs/2601.15779)] [[Paper PDF](https://arxiv.org/pdf/2601.15779)]
 
 NeuroDiff 是一个面向 3D 电镜（EM）神经元分割的数据增强框架。它先训练一个 resolution-aware 条件扩散模型，根据 3D 生物结构 mask 合成 EM 图像；再通过 biology-guided mask remodeling 生成结构更丰富、更加合理的 image-label pair，用于提升神经元分割模型的训练效果。
 
@@ -173,11 +173,12 @@ python get_results.py -mn example_ac4_4%_aug -m AC3
 如果本项目对你的研究有帮助，请引用：
 
 ```bibtex
-@article{jiang2026diffusion,
-  title={Diffusion Model-Based Data Augmentation for Enhanced Neuron Segmentation},
+@INPROCEEDINGS{11515854,
   author={Jiang, Liuyun and Zhang, Yanchao and Guo, Jinyue and Lu, Yizhuo and Zhou, Ruining and Han, Hua},
-  journal={arXiv preprint arXiv:2601.15779},
+  booktitle={2026 IEEE 23rd International Symposium on Biomedical Imaging (ISBI)},
+  title={Diffusion Model-Based Data Augmentation for Enhanced Neuron Segmentation},
   year={2026},
-  doi={10.48550/arXiv.2601.15779}
+  pages={01-05},
+  doi={10.1109/ISBI61048.2026.11515854}
 }
 ```

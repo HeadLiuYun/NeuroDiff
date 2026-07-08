@@ -2,9 +2,9 @@
 
 [Chinese](README_zh.md)
 
-Official implementation of **Diffusion Model-Based Data Augmentation for Enhanced Neuron Segmentation**.
+Official implementation of **Diffusion Model-Based Data Augmentation for Enhanced Neuron Segmentation**, published at **IEEE ISBI 2026**.
 
-[[arXiv](https://arxiv.org/abs/2601.15779)] [[Paper PDF](https://arxiv.org/pdf/2601.15779)]
+[[IEEE](https://ieeexplore.ieee.org/document/11515854)] [[arXiv](https://arxiv.org/abs/2601.15779)] [[Paper PDF](https://arxiv.org/pdf/2601.15779)]
 
 NeuroDiff is a diffusion-based data augmentation framework for neuron segmentation in 3D electron microscopy (EM). It trains a resolution-aware conditional diffusion model to synthesize EM images from 3D biological masks, and uses a biology-guided mask remodeling module to generate structurally plausible image-label pairs for segmentation training.
 
@@ -176,11 +176,12 @@ python get_results.py -mn example_ac4_4%_aug -m AC3
 If this repository is useful for your research, please cite:
 
 ```bibtex
-@article{jiang2026diffusion,
-  title={Diffusion Model-Based Data Augmentation for Enhanced Neuron Segmentation},
+@INPROCEEDINGS{11515854,
   author={Jiang, Liuyun and Zhang, Yanchao and Guo, Jinyue and Lu, Yizhuo and Zhou, Ruining and Han, Hua},
-  journal={arXiv preprint arXiv:2601.15779},
+  booktitle={2026 IEEE 23rd International Symposium on Biomedical Imaging (ISBI)},
+  title={Diffusion Model-Based Data Augmentation for Enhanced Neuron Segmentation},
   year={2026},
-  doi={10.48550/arXiv.2601.15779}
+  pages={01-05},
+  doi={10.1109/ISBI61048.2026.11515854}
 }
 ```
